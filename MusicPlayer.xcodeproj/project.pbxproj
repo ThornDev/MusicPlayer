@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4A849A19209138008C16E8 /* mode_repeatlist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4A849719209138008C16E8 /* mode_repeatlist@2x.png */; };
+		CC4A849B19209138008C16E8 /* mode_randplay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4A849819209138008C16E8 /* mode_randplay@2x.png */; };
+		CC4A849C19209138008C16E8 /* mode_orderplay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4A849919209138008C16E8 /* mode_orderplay@2x.png */; };
+		CC4A849E19209792008C16E8 /* mv_voiceSliderThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4A849D19209792008C16E8 /* mv_voiceSliderThumb@2x.png */; };
+		CC4A84A01920B5BB008C16E8 /* music1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC4A849F1920B5BB008C16E8 /* music1.jpg */; };
+		CC758E04191CFF6A006AE1E3 /* scene2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC758E01191CFF6A006AE1E3 /* scene2.jpg */; };
+		CC758E05191CFF6A006AE1E3 /* scene3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC758E02191CFF6A006AE1E3 /* scene3.jpg */; };
+		CC758E06191CFF6A006AE1E3 /* scene4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC758E03191CFF6A006AE1E3 /* scene4.jpg */; };
+		CC758E0A191CFFFF006AE1E3 /* scene5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC758E09191CFFFF006AE1E3 /* scene5.jpg */; };
+		CC758E15191DB31D006AE1E3 /* You Belong With Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC758E0B191DB31D006AE1E3 /* You Belong With Me.mp3 */; };
+		CC758E16191DB31D006AE1E3 /* You Belong With Me.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CC758E0C191DB31D006AE1E3 /* You Belong With Me.lrc */; };
+		CC758E19191DB31D006AE1E3 /* Stay Beautiful.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC758E0F191DB31D006AE1E3 /* Stay Beautiful.mp3 */; };
+		CC758E1A191DB31D006AE1E3 /* Stay Beautiful.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CC758E10191DB31D006AE1E3 /* Stay Beautiful.lrc */; };
+		CC758E1B191DB31D006AE1E3 /* 我只在乎你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC758E11191DB31D006AE1E3 /* 我只在乎你.mp3 */; };
+		CC758E1C191DB31D006AE1E3 /* 我只在乎你.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CC758E12191DB31D006AE1E3 /* 我只在乎你.lrc */; };
+		CC758E1D191DB31D006AE1E3 /* 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC758E13191DB31D006AE1E3 /* 泡沫.mp3 */; };
+		CC758E1E191DB31D006AE1E3 /* 泡沫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CC758E14191DB31D006AE1E3 /* 泡沫.lrc */; };
+		CC758E61191DF391006AE1E3 /* all.png in Resources */ = {isa = PBXBuildFile; fileRef = CC758E60191DF391006AE1E3 /* all.png */; };
+		CC7F6FDC1917B9CE00258B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7F6FDB1917B9CE00258B9A /* Foundation.framework */; };
+		CC7F6FDE1917B9CE00258B9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7F6FDD1917B9CE00258B9A /* CoreGraphics.framework */; };
+		CC7F6FE01917B9CE00258B9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7F6FDF1917B9CE00258B9A /* UIKit.framework */; };
+		CC7F6FE61917B9CE00258B9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC7F6FE41917B9CE00258B9A /* InfoPlist.strings */; };
+		CC7F6FE81917B9CE00258B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7F6FE71917B9CE00258B9A /* main.m */; };
+		CC7F6FEC1917B9CE00258B9A /* MjAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7F6FEB1917B9CE00258B9A /* MjAppDelegate.m */; };
+		CC7F6FEE1917B9CE00258B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7F6FED1917B9CE00258B9A /* Images.xcassets */; };
+		CC7F6FF51917B9CF00258B9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7F6FF41917B9CF00258B9A /* XCTest.framework */; };
+		CC7F6FF61917B9CF00258B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7F6FDB1917B9CE00258B9A /* Foundation.framework */; };
+		CC7F6FF71917B9CF00258B9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7F6FDF1917B9CE00258B9A /* UIKit.framework */; };
+		CC7F6FFF1917B9CF00258B9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC7F6FFD1917B9CF00258B9A /* InfoPlist.strings */; };
+		CC7F70011917B9CF00258B9A /* MusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7F70001917B9CF00258B9A /* MusicPlayerTests.m */; };
+		CC7F700C1917BABA00258B9A /* MjJudgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7F700B1917BABA00258B9A /* MjJudgeViewController.m */; };
+		CC7F70241917BB9900258B9A /* soundSlider.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F700E1917BB9900258B9A /* soundSlider.png */; };
+		CC7F70251917BB9900258B9A /* sliderThumb_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F700F1917BB9900258B9A /* sliderThumb_small.png */; };
+		CC7F702B1917BB9900258B9A /* randomOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F70151917BB9900258B9A /* randomOpen.png */; };
+		CC7F702C1917BB9900258B9A /* randomClose.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F70161917BB9900258B9A /* randomClose.png */; };
+		CC7F702D1917BB9900258B9A /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F70171917BB9900258B9A /* play.png */; };
+		CC7F702E1917BB9900258B9A /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F70181917BB9900258B9A /* pause.png */; };
+		CC7F702F1917BB9900258B9A /* nextMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F70191917BB9900258B9A /* nextMusic.png */; };
+		CC7F70301917BB9900258B9A /* music5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC7F701A1917BB9900258B9A /* music5.jpg */; };
+		CC7F70311917BB9900258B9A /* music4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC7F701B1917BB9900258B9A /* music4.jpg */; };
+		CC7F70321917BB9900258B9A /* music3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC7F701C1917BB9900258B9A /* music3.jpg */; };
+		CC7F70331917BB9900258B9A /* music2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC7F701D1917BB9900258B9A /* music2.jpg */; };
+		CC7F70351917BB9900258B9A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F701F1917BB9900258B9A /* icon.png */; };
+		CC7F70361917BB9900258B9A /* circleOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F70201917BB9900258B9A /* circleOpen.png */; };
+		CC7F70371917BB9900258B9A /* circleClose.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F70211917BB9900258B9A /* circleClose.png */; };
+		CC7F70381917BB9900258B9A /* aboveMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F70221917BB9900258B9A /* aboveMusic.png */; };
+		CC7F70391917BB9900258B9A /* 光辉岁月.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC7F70231917BB9900258B9A /* 光辉岁月.mp3 */; };
+		CC7F703C1917BBC900258B9A /* MJScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7F703B1917BBC900258B9A /* MJScrollViewController.m */; };
+		CC7F70431917BDA300258B9A /* MjMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7F70411917BDA300258B9A /* MjMusicViewController.m */; };
+		CC7F70441917BDA300258B9A /* MjMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7F70421917BDA300258B9A /* MjMusicViewController.xib */; };
+		CC7F70461917BE1900258B9A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7F70451917BE1900258B9A /* AVFoundation.framework */; };
+		CCA4FE0D1919058200514CE9 /* scene1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCA4FE0C1919058200514CE9 /* scene1.jpg */; };
+		CCA4FE0F19190B8700514CE9 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA4FE0E19190B8700514CE9 /* menu.png */; };
+		CCA4FE1A1919F96900514CE9 /* 怒放的生命.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCA4FE191919F96900514CE9 /* 怒放的生命.mp3 */; };
+		CCA4FE1D1919F9B300514CE9 /* Never Give Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCA4FE1B1919F9B300514CE9 /* Never Give Up.mp3 */; };
+		CCA4FE1E1919F9B300514CE9 /* 你给我听好.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCA4FE1C1919F9B300514CE9 /* 你给我听好.mp3 */; };
+		CCA4FEA2191B689D00514CE9 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA4FEA1191B689D00514CE9 /* default@2x.png */; };
+		CCA4FEF3191BAC2C00514CE9 /* Never Give Up.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCA4FEEF191BAC2C00514CE9 /* Never Give Up.lrc */; };
+		CCA4FEF4191BAC2C00514CE9 /* 怒放的生命.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCA4FEF0191BAC2C00514CE9 /* 怒放的生命.lrc */; };
+		CCA4FEF5191BAC2C00514CE9 /* 你给我听好.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCA4FEF1191BAC2C00514CE9 /* 你给我听好.lrc */; };
+		CCA4FEF6191BAC2C00514CE9 /* 光辉岁月.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCA4FEF2191BAC2C00514CE9 /* 光辉岁月.lrc */; };
+		CCA4FEFE191BAD0600514CE9 /* DXSemiViewControllerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA4FEF8191BAD0600514CE9 /* DXSemiViewControllerCategory.m */; };
+		CCA4FEFF191BAD0600514CE9 /* DXSemiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA4FEFA191BAD0600514CE9 /* DXSemiViewController.m */; };
+		CCA4FF00191BAD0600514CE9 /* DXSemiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA4FEFC191BAD0600514CE9 /* DXSemiTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC7F6FF81917B9CF00258B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7F6FD01917B9CE00258B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7F6FD71917B9CE00258B9A;
+			remoteInfo = MusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC4A849719209138008C16E8 /* mode_repeatlist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mode_repeatlist@2x.png"; sourceTree = "<group>"; };
+		CC4A849819209138008C16E8 /* mode_randplay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mode_randplay@2x.png"; sourceTree = "<group>"; };
+		CC4A849919209138008C16E8 /* mode_orderplay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mode_orderplay@2x.png"; sourceTree = "<group>"; };
+		CC4A849D19209792008C16E8 /* mv_voiceSliderThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mv_voiceSliderThumb@2x.png"; sourceTree = "<group>"; };
+		CC4A849F1920B5BB008C16E8 /* music1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = music1.jpg; sourceTree = "<group>"; };
+		CC758E01191CFF6A006AE1E3 /* scene2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene2.jpg; sourceTree = "<group>"; };
+		CC758E02191CFF6A006AE1E3 /* scene3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene3.jpg; sourceTree = "<group>"; };
+		CC758E03191CFF6A006AE1E3 /* scene4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene4.jpg; sourceTree = "<group>"; };
+		CC758E09191CFFFF006AE1E3 /* scene5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene5.jpg; sourceTree = "<group>"; };
+		CC758E0B191DB31D006AE1E3 /* You Belong With Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "You Belong With Me.mp3"; sourceTree = "<group>"; };
+		CC758E0C191DB31D006AE1E3 /* You Belong With Me.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "You Belong With Me.lrc"; sourceTree = "<group>"; };
+		CC758E0F191DB31D006AE1E3 /* Stay Beautiful.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Stay Beautiful.mp3"; sourceTree = "<group>"; };
+		CC758E10191DB31D006AE1E3 /* Stay Beautiful.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Stay Beautiful.lrc"; sourceTree = "<group>"; };
+		CC758E11191DB31D006AE1E3 /* 我只在乎你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我只在乎你.mp3"; sourceTree = "<group>"; };
+		CC758E12191DB31D006AE1E3 /* 我只在乎你.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "我只在乎你.lrc"; sourceTree = "<group>"; };
+		CC758E13191DB31D006AE1E3 /* 泡沫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "泡沫.mp3"; sourceTree = "<group>"; };
+		CC758E14191DB31D006AE1E3 /* 泡沫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "泡沫.lrc"; sourceTree = "<group>"; };
+		CC758E60191DF391006AE1E3 /* all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = all.png; sourceTree = "<group>"; };
+		CC7F6FD81917B9CE00258B9A /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7F6FDB1917B9CE00258B9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC7F6FDD1917B9CE00258B9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC7F6FDF1917B9CE00258B9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC7F6FE31917B9CE00258B9A /* MusicPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPlayer-Info.plist"; sourceTree = "<group>"; };
+		CC7F6FE51917B9CE00258B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC7F6FE71917B9CE00258B9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC7F6FE91917B9CE00258B9A /* MusicPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		CC7F6FEA1917B9CE00258B9A /* MjAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MjAppDelegate.h; sourceTree = "<group>"; };
+		CC7F6FEB1917B9CE00258B9A /* MjAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MjAppDelegate.m; sourceTree = "<group>"; };
+		CC7F6FED1917B9CE00258B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC7F6FF31917B9CF00258B9A /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7F6FF41917B9CF00258B9A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC7F6FFC1917B9CF00258B9A /* MusicPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		CC7F6FFE1917B9CF00258B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC7F70001917B9CF00258B9A /* MusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTests.m; sourceTree = "<group>"; };
+		CC7F700A1917BABA00258B9A /* MjJudgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MjJudgeViewController.h; sourceTree = "<group>"; };
+		CC7F700B1917BABA00258B9A /* MjJudgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MjJudgeViewController.m; sourceTree = "<group>"; };
+		CC7F700E1917BB9900258B9A /* soundSlider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundSlider.png; sourceTree = "<group>"; };
+		CC7F700F1917BB9900258B9A /* sliderThumb_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderThumb_small.png; sourceTree = "<group>"; };
+		CC7F70151917BB9900258B9A /* randomOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = randomOpen.png; sourceTree = "<group>"; };
+		CC7F70161917BB9900258B9A /* randomClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = randomClose.png; sourceTree = "<group>"; };
+		CC7F70171917BB9900258B9A /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		CC7F70181917BB9900258B9A /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		CC7F70191917BB9900258B9A /* nextMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextMusic.png; sourceTree = "<group>"; };
+		CC7F701A1917BB9900258B9A /* music5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = music5.jpg; sourceTree = "<group>"; };
+		CC7F701B1917BB9900258B9A /* music4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = music4.jpg; sourceTree = "<group>"; };
+		CC7F701C1917BB9900258B9A /* music3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = music3.jpg; sourceTree = "<group>"; };
+		CC7F701D1917BB9900258B9A /* music2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = music2.jpg; sourceTree = "<group>"; };
+		CC7F701F1917BB9900258B9A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CC7F70201917BB9900258B9A /* circleOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleOpen.png; sourceTree = "<group>"; };
+		CC7F70211917BB9900258B9A /* circleClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleClose.png; sourceTree = "<group>"; };
+		CC7F70221917BB9900258B9A /* aboveMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboveMusic.png; sourceTree = "<group>"; };
+		CC7F70231917BB9900258B9A /* 光辉岁月.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "光辉岁月.mp3"; sourceTree = "<group>"; };
+		CC7F703A1917BBC900258B9A /* MJScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJScrollViewController.h; sourceTree = "<group>"; };
+		CC7F703B1917BBC900258B9A /* MJScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJScrollViewController.m; sourceTree = "<group>"; };
+		CC7F70401917BDA300258B9A /* MjMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MjMusicViewController.h; sourceTree = "<group>"; };
+		CC7F70411917BDA300258B9A /* MjMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MjMusicViewController.m; sourceTree = "<group>"; };
+		CC7F70421917BDA300258B9A /* MjMusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MjMusicViewController.xib; sourceTree = "<group>"; };
+		CC7F70451917BE1900258B9A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CCA4FE0C1919058200514CE9 /* scene1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene1.jpg; sourceTree = "<group>"; };
+		CCA4FE0E19190B8700514CE9 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		CCA4FE191919F96900514CE9 /* 怒放的生命.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "怒放的生命.mp3"; sourceTree = "<group>"; };
+		CCA4FE1B1919F9B300514CE9 /* Never Give Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Never Give Up.mp3"; sourceTree = "<group>"; };
+		CCA4FE1C1919F9B300514CE9 /* 你给我听好.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "你给我听好.mp3"; sourceTree = "<group>"; };
+		CCA4FEA1191B689D00514CE9 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		CCA4FEEF191BAC2C00514CE9 /* Never Give Up.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Never Give Up.lrc"; sourceTree = "<group>"; };
+		CCA4FEF0191BAC2C00514CE9 /* 怒放的生命.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "怒放的生命.lrc"; sourceTree = "<group>"; };
+		CCA4FEF1191BAC2C00514CE9 /* 你给我听好.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "你给我听好.lrc"; sourceTree = "<group>"; };
+		CCA4FEF2191BAC2C00514CE9 /* 光辉岁月.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "光辉岁月.lrc"; sourceTree = "<group>"; };
+		CCA4FEF8191BAD0600514CE9 /* DXSemiViewControllerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSemiViewControllerCategory.m; sourceTree = "<group>"; };
+		CCA4FEF9191BAD0600514CE9 /* DXSemiViewControllerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSemiViewControllerCategory.h; sourceTree = "<group>"; };
+		CCA4FEFA191BAD0600514CE9 /* DXSemiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSemiViewController.m; sourceTree = "<group>"; };
+		CCA4FEFB191BAD0600514CE9 /* DXSemiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSemiViewController.h; sourceTree = "<group>"; };
+		CCA4FEFC191BAD0600514CE9 /* DXSemiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSemiTableViewController.m; sourceTree = "<group>"; };
+		CCA4FEFD191BAD0600514CE9 /* DXSemiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSemiTableViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC7F6FD51917B9CE00258B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7F70461917BE1900258B9A /* AVFoundation.framework in Frameworks */,
+				CC7F6FDE1917B9CE00258B9A /* CoreGraphics.framework in Frameworks */,
+				CC7F6FE01917B9CE00258B9A /* UIKit.framework in Frameworks */,
+				CC7F6FDC1917B9CE00258B9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7F6FF01917B9CF00258B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7F6FF51917B9CF00258B9A /* XCTest.framework in Frameworks */,
+				CC7F6FF71917B9CF00258B9A /* UIKit.framework in Frameworks */,
+				CC7F6FF61917B9CF00258B9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC7F6FCF1917B9CE00258B9A = {
+			isa = PBXGroup;
+			children = (
+				CC7F6FE11917B9CE00258B9A /* MusicPlayer */,
+				CC7F6FFA1917B9CF00258B9A /* MusicPlayerTests */,
+				CC7F6FDA1917B9CE00258B9A /* Frameworks */,
+				CC7F6FD91917B9CE00258B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC7F6FD91917B9CE00258B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F6FD81917B9CE00258B9A /* MusicPlayer.app */,
+				CC7F6FF31917B9CF00258B9A /* MusicPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7F6FDA1917B9CE00258B9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F70451917BE1900258B9A /* AVFoundation.framework */,
+				CC7F6FDB1917B9CE00258B9A /* Foundation.framework */,
+				CC7F6FDD1917B9CE00258B9A /* CoreGraphics.framework */,
+				CC7F6FDF1917B9CE00258B9A /* UIKit.framework */,
+				CC7F6FF41917B9CF00258B9A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC7F6FE11917B9CE00258B9A /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CCA4FEF7191BACEE00514CE9 /* class */,
+				CC7F6FEA1917B9CE00258B9A /* MjAppDelegate.h */,
+				CC7F6FEB1917B9CE00258B9A /* MjAppDelegate.m */,
+				CC7F700A1917BABA00258B9A /* MjJudgeViewController.h */,
+				CC7F700B1917BABA00258B9A /* MjJudgeViewController.m */,
+				CC7F703A1917BBC900258B9A /* MJScrollViewController.h */,
+				CC7F703B1917BBC900258B9A /* MJScrollViewController.m */,
+				CC7F70401917BDA300258B9A /* MjMusicViewController.h */,
+				CC7F70411917BDA300258B9A /* MjMusicViewController.m */,
+				CC7F70421917BDA300258B9A /* MjMusicViewController.xib */,
+				CC7F6FED1917B9CE00258B9A /* Images.xcassets */,
+				CC7F6FE21917B9CE00258B9A /* Supporting Files */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		CC7F6FE21917B9CE00258B9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA4FE131919F8DA00514CE9 /* songs */,
+				CC7F700D1917BB5800258B9A /* images */,
+				CC7F6FE31917B9CE00258B9A /* MusicPlayer-Info.plist */,
+				CC7F6FE41917B9CE00258B9A /* InfoPlist.strings */,
+				CC7F6FE71917B9CE00258B9A /* main.m */,
+				CC7F6FE91917B9CE00258B9A /* MusicPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC7F6FFA1917B9CF00258B9A /* MusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F70001917B9CF00258B9A /* MusicPlayerTests.m */,
+				CC7F6FFB1917B9CF00258B9A /* Supporting Files */,
+			);
+			path = MusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		CC7F6FFB1917B9CF00258B9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F6FFC1917B9CF00258B9A /* MusicPlayerTests-Info.plist */,
+				CC7F6FFD1917B9CF00258B9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC7F700D1917BB5800258B9A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A849D19209792008C16E8 /* mv_voiceSliderThumb@2x.png */,
+				CC4A849719209138008C16E8 /* mode_repeatlist@2x.png */,
+				CC4A849819209138008C16E8 /* mode_randplay@2x.png */,
+				CC4A849919209138008C16E8 /* mode_orderplay@2x.png */,
+				CC758E60191DF391006AE1E3 /* all.png */,
+				CCA4FEA1191B689D00514CE9 /* default@2x.png */,
+				CCA4FE0E19190B8700514CE9 /* menu.png */,
+				CCA4FE0C1919058200514CE9 /* scene1.jpg */,
+				CC758E01191CFF6A006AE1E3 /* scene2.jpg */,
+				CC758E02191CFF6A006AE1E3 /* scene3.jpg */,
+				CC758E03191CFF6A006AE1E3 /* scene4.jpg */,
+				CC758E09191CFFFF006AE1E3 /* scene5.jpg */,
+				CC7F700E1917BB9900258B9A /* soundSlider.png */,
+				CC7F700F1917BB9900258B9A /* sliderThumb_small.png */,
+				CC7F70151917BB9900258B9A /* randomOpen.png */,
+				CC7F70161917BB9900258B9A /* randomClose.png */,
+				CC7F70171917BB9900258B9A /* play.png */,
+				CC7F70181917BB9900258B9A /* pause.png */,
+				CC7F70191917BB9900258B9A /* nextMusic.png */,
+				CC4A849F1920B5BB008C16E8 /* music1.jpg */,
+				CC7F701A1917BB9900258B9A /* music5.jpg */,
+				CC7F701B1917BB9900258B9A /* music4.jpg */,
+				CC7F701C1917BB9900258B9A /* music3.jpg */,
+				CC7F701D1917BB9900258B9A /* music2.jpg */,
+				CC7F701F1917BB9900258B9A /* icon.png */,
+				CC7F70201917BB9900258B9A /* circleOpen.png */,
+				CC7F70211917BB9900258B9A /* circleClose.png */,
+				CC7F70221917BB9900258B9A /* aboveMusic.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CCA4FE131919F8DA00514CE9 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				CC758E0B191DB31D006AE1E3 /* You Belong With Me.mp3 */,
+				CC758E0C191DB31D006AE1E3 /* You Belong With Me.lrc */,
+				CC758E0F191DB31D006AE1E3 /* Stay Beautiful.mp3 */,
+				CC758E10191DB31D006AE1E3 /* Stay Beautiful.lrc */,
+				CC758E11191DB31D006AE1E3 /* 我只在乎你.mp3 */,
+				CC758E12191DB31D006AE1E3 /* 我只在乎你.lrc */,
+				CC758E13191DB31D006AE1E3 /* 泡沫.mp3 */,
+				CC758E14191DB31D006AE1E3 /* 泡沫.lrc */,
+				CCA4FE1B1919F9B300514CE9 /* Never Give Up.mp3 */,
+				CCA4FEEF191BAC2C00514CE9 /* Never Give Up.lrc */,
+				CCA4FE1C1919F9B300514CE9 /* 你给我听好.mp3 */,
+				CCA4FEF1191BAC2C00514CE9 /* 你给我听好.lrc */,
+				CCA4FE191919F96900514CE9 /* 怒放的生命.mp3 */,
+				CCA4FEF0191BAC2C00514CE9 /* 怒放的生命.lrc */,
+				CC7F70231917BB9900258B9A /* 光辉岁月.mp3 */,
+				CCA4FEF2191BAC2C00514CE9 /* 光辉岁月.lrc */,
+			);
+			name = songs;
+			sourceTree = "<group>";
+		};
+		CCA4FEF7191BACEE00514CE9 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				CCA4FEF8191BAD0600514CE9 /* DXSemiViewControllerCategory.m */,
+				CCA4FEF9191BAD0600514CE9 /* DXSemiViewControllerCategory.h */,
+				CCA4FEFA191BAD0600514CE9 /* DXSemiViewController.m */,
+				CCA4FEFB191BAD0600514CE9 /* DXSemiViewController.h */,
+				CCA4FEFC191BAD0600514CE9 /* DXSemiTableViewController.m */,
+				CCA4FEFD191BAD0600514CE9 /* DXSemiTableViewController.h */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC7F6FD71917B9CE00258B9A /* MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7F70041917B9CF00258B9A /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
+			buildPhases = (
+				CC7F6FD41917B9CE00258B9A /* Sources */,
+				CC7F6FD51917B9CE00258B9A /* Frameworks */,
+				CC7F6FD61917B9CE00258B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayer;
+			productName = MusicPlayer;
+			productReference = CC7F6FD81917B9CE00258B9A /* MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC7F6FF21917B9CF00258B9A /* MusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7F70071917B9CF00258B9A /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */;
+			buildPhases = (
+				CC7F6FEF1917B9CF00258B9A /* Sources */,
+				CC7F6FF01917B9CF00258B9A /* Frameworks */,
+				CC7F6FF11917B9CF00258B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7F6FF91917B9CF00258B9A /* PBXTargetDependency */,
+			);
+			name = MusicPlayerTests;
+			productName = MusicPlayerTests;
+			productReference = CC7F6FF31917B9CF00258B9A /* MusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC7F6FD01917B9CE00258B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Mj;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hnqingyun;
+				TargetAttributes = {
+					CC7F6FF21917B9CF00258B9A = {
+						TestTargetID = CC7F6FD71917B9CE00258B9A;
+					};
+				};
+			};
+			buildConfigurationList = CC7F6FD31917B9CE00258B9A /* Build configuration list for PBXProject "MusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC7F6FCF1917B9CE00258B9A;
+			productRefGroup = CC7F6FD91917B9CE00258B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC7F6FD71917B9CE00258B9A /* MusicPlayer */,
+				CC7F6FF21917B9CF00258B9A /* MusicPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC7F6FD61917B9CE00258B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC758E61191DF391006AE1E3 /* all.png in Resources */,
+				CC758E05191CFF6A006AE1E3 /* scene3.jpg in Resources */,
+				CC758E1C191DB31D006AE1E3 /* 我只在乎你.lrc in Resources */,
+				CC7F702C1917BB9900258B9A /* randomClose.png in Resources */,
+				CC7F70391917BB9900258B9A /* 光辉岁月.mp3 in Resources */,
+				CC758E1A191DB31D006AE1E3 /* Stay Beautiful.lrc in Resources */,
+				CCA4FE0D1919058200514CE9 /* scene1.jpg in Resources */,
+				CC4A849A19209138008C16E8 /* mode_repeatlist@2x.png in Resources */,
+				CC7F702E1917BB9900258B9A /* pause.png in Resources */,
+				CC758E06191CFF6A006AE1E3 /* scene4.jpg in Resources */,
+				CC7F70331917BB9900258B9A /* music2.jpg in Resources */,
+				CC7F6FE61917B9CE00258B9A /* InfoPlist.strings in Resources */,
+				CCA4FEF4191BAC2C00514CE9 /* 怒放的生命.lrc in Resources */,
+				CC7F70441917BDA300258B9A /* MjMusicViewController.xib in Resources */,
+				CC7F70241917BB9900258B9A /* soundSlider.png in Resources */,
+				CC7F70371917BB9900258B9A /* circleClose.png in Resources */,
+				CC758E19191DB31D006AE1E3 /* Stay Beautiful.mp3 in Resources */,
+				CC7F702D1917BB9900258B9A /* play.png in Resources */,
+				CC7F70321917BB9900258B9A /* music3.jpg in Resources */,
+				CCA4FEF6191BAC2C00514CE9 /* 光辉岁月.lrc in Resources */,
+				CC7F70301917BB9900258B9A /* music5.jpg in Resources */,
+				CCA4FE1A1919F96900514CE9 /* 怒放的生命.mp3 in Resources */,
+				CC4A849B19209138008C16E8 /* mode_randplay@2x.png in Resources */,
+				CCA4FE0F19190B8700514CE9 /* menu.png in Resources */,
+				CC7F6FEE1917B9CE00258B9A /* Images.xcassets in Resources */,
+				CC758E04191CFF6A006AE1E3 /* scene2.jpg in Resources */,
+				CCA4FEF3191BAC2C00514CE9 /* Never Give Up.lrc in Resources */,
+				CC4A849C19209138008C16E8 /* mode_orderplay@2x.png in Resources */,
+				CC7F702F1917BB9900258B9A /* nextMusic.png in Resources */,
+				CC7F70361917BB9900258B9A /* circleOpen.png in Resources */,
+				CC758E0A191CFFFF006AE1E3 /* scene5.jpg in Resources */,
+				CC758E1E191DB31D006AE1E3 /* 泡沫.lrc in Resources */,
+				CC7F70251917BB9900258B9A /* sliderThumb_small.png in Resources */,
+				CCA4FEA2191B689D00514CE9 /* default@2x.png in Resources */,
+				CC758E1B191DB31D006AE1E3 /* 我只在乎你.mp3 in Resources */,
+				CC7F70351917BB9900258B9A /* icon.png in Resources */,
+				CC7F702B1917BB9900258B9A /* randomOpen.png in Resources */,
+				CC4A84A01920B5BB008C16E8 /* music1.jpg in Resources */,
+				CC7F70311917BB9900258B9A /* music4.jpg in Resources */,
+				CC4A849E19209792008C16E8 /* mv_voiceSliderThumb@2x.png in Resources */,
+				CC7F70381917BB9900258B9A /* aboveMusic.png in Resources */,
+				CC758E16191DB31D006AE1E3 /* You Belong With Me.lrc in Resources */,
+				CCA4FE1E1919F9B300514CE9 /* 你给我听好.mp3 in Resources */,
+				CC758E1D191DB31D006AE1E3 /* 泡沫.mp3 in Resources */,
+				CC758E15191DB31D006AE1E3 /* You Belong With Me.mp3 in Resources */,
+				CCA4FEF5191BAC2C00514CE9 /* 你给我听好.lrc in Resources */,
+				CCA4FE1D1919F9B300514CE9 /* Never Give Up.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7F6FF11917B9CF00258B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7F6FFF1917B9CF00258B9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC7F6FD41917B9CE00258B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA4FEFF191BAD0600514CE9 /* DXSemiViewController.m in Sources */,
+				CC7F703C1917BBC900258B9A /* MJScrollViewController.m in Sources */,
+				CC7F70431917BDA300258B9A /* MjMusicViewController.m in Sources */,
+				CC7F6FE81917B9CE00258B9A /* main.m in Sources */,
+				CC7F6FEC1917B9CE00258B9A /* MjAppDelegate.m in Sources */,
+				CCA4FEFE191BAD0600514CE9 /* DXSemiViewControllerCategory.m in Sources */,
+				CC7F700C1917BABA00258B9A /* MjJudgeViewController.m in Sources */,
+				CCA4FF00191BAD0600514CE9 /* DXSemiTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7F6FEF1917B9CF00258B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7F70011917B9CF00258B9A /* MusicPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC7F6FF91917B9CF00258B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7F6FD71917B9CE00258B9A /* MusicPlayer */;
+			targetProxy = CC7F6FF81917B9CF00258B9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC7F6FE41917B9CE00258B9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7F6FE51917B9CE00258B9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC7F6FFD1917B9CF00258B9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7F6FFE1917B9CF00258B9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC7F70021917B9CF00258B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC7F70031917B9CF00258B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7F70051917B9CF00258B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayer/MusicPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC7F70061917B9CF00258B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayer/MusicPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CC7F70081917B9CF00258B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicPlayer.app/MusicPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MusicPlayerTests/MusicPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CC7F70091917B9CF00258B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicPlayer.app/MusicPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayerTests/MusicPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC7F6FD31917B9CE00258B9A /* Build configuration list for PBXProject "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7F70021917B9CF00258B9A /* Debug */,
+				CC7F70031917B9CF00258B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7F70041917B9CF00258B9A /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7F70051917B9CF00258B9A /* Debug */,
+				CC7F70061917B9CF00258B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7F70071917B9CF00258B9A /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7F70081917B9CF00258B9A /* Debug */,
+				CC7F70091917B9CF00258B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC7F6FD01917B9CE00258B9A /* Project object */;
+}
